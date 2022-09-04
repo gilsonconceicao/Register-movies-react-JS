@@ -1,0 +1,55 @@
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.container_all_movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie_local {
+    background-color: #000000c0;
+    color: #fff;
+    width: 300px;
+    height: 100%;
+    height: 400px ;
+    margin: 20px;
+    display: block;
+    position: relative;
+}   
+
+.movie_local a {
+    background-color: #1687dd;
+    color: #d7d7d7;
+    display: block;
+    width: 280px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.movie_local a:hover {background-color: #1f64ddc0;}
+
+.movie_local h3, p {
+    margin: 10px;
+}
+
+.movie_local img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .movie_local {
+        width: 100%;
+        height: 430px;
+    }
+
+    .movie_local a {width: 95.5%;}
+}

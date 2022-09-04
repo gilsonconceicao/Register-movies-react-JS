@@ -1,0 +1,62 @@
+input, span, label, textarea, select {
+    display: block;
+    width: 100%;
+    outline: none;
+    margin: 10px 0 ;
+    padding: 4px;
+}
+
+span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.form_post_movie {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form_post_movie input{
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #6b6565;
+    padding: 10px;
+}
+
+.form_post_movie input[type='text'] {
+    width: 95%;
+}
+
+.form_post_movie input[type='submit'] {
+    background-color: #1884d7;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.form_post_movie select {
+    padding: 10px 3px;
+}
+
+textarea {
+    font-size: 15px;
+    padding: 8px 4px;
+}
+
+.messageError {
+    background-color: #e8e8e8;
+    color: red;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.messageSucces {
+    background-color: #00a700;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+}

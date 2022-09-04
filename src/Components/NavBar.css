@@ -1,0 +1,54 @@
+nav {
+    background-color: #249efb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a { 
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #242424;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    font-size: 50px;
+    top: 1px;
+}
+
+.btn_show_menu {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    nav { 
+        padding: 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+   
+    nav a {
+        font-size: 14px;
+    }
+}
