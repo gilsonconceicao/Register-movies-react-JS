@@ -33,9 +33,6 @@
     transition: 0.5s;
 }
 
-.btn_movies a:hover {
-    transform: translateY(-0.4em);    
-}
 
 @media screen and (max-width: 800px) {
     .detals_movie {

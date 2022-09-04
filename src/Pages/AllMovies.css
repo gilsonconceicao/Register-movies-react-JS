@@ -3,6 +3,21 @@ h2 {
     margin: 10px;
 }
 
+.getMovies {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+.getMovies input {
+    border: 1px solid #8f8c8c;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
 .container_all_movies {
     display: flex;
     justify-content: center;
@@ -43,11 +58,12 @@ h2 {
 
 .movie_local img {
     width: 100%;
+    height: 200px;
 }
 
 @media screen and (max-width: 600px) {
     .movie_local {
-        width: 100%;
+        width: 90%;
         height: 430px;
     }
 
